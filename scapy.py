@@ -27,7 +27,7 @@ def send_mail():
     server.starttls()
     server.ehlo()
 
-    server.login('perfect.igbadumhe@gmail.com', 'calyster123')
+    server.login('perfect.igbadumhe@gmail.com', 'password_password')
 
     subject = 'Price is DOWN!!!!'
     body = 'check the amazon link: https://www.amazon.de/Sony-Systemkamera-Klapp-Display-Echtzeit-Autofokus-AF-Punkten/dp/B07MWDKNGN/ref=sr_1_2_sspa?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=camera&qid=1572168842&sr=8-2-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUExQjJTTkVZM0Q2M1U4JmVuY3J5cHRlZElkPUEwMTgzNzQyMk04MlI1R1c3SFlIRSZlbmNyeXB0ZWRBZElkPUEwODU0NTE3SEpIVDRVUTVJS1dLJndpZGdldE5hbWU9c3BfYXRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ=='
